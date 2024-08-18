@@ -31,3 +31,27 @@
       <img src="https://github-profile-trophy.vercel.app/?username=saitogo555&theme=flat&margin-w=15&margin-h=15" alt="GitHub Trophy">
     </a>
 </div>
+
+## 💻 Programming Languages
+
+[![Programming Languages](https://skillicons.dev/icons?perline=8&i=html,css,js,ts,php,java,py,go)](https://skillicons.dev)
+
+## 📚 Library & Framework
+
+[![Library & Framework](https://skillicons.dev/icons?perline=8&i=react,nextjs,vue,nuxtjs,vuetify,astro,svelte,jquery,electron,pug,sass,bootstrap,tailwind,laravel)](https://skillicons.dev)
+
+## 🌐 Platforms
+
+[![Library & Framework](https://skillicons.dev/icons?perline=8&i=gcp,firebase,nodejs,github)](https://skillicons.dev)
+
+## 🛠️ Tools
+
+[![Tools](https://skillicons.dev/icons?perline=8&i=npm,pnpm,bun,webpack,vite,git,githubactions,regex)](https://skillicons.dev)
+
+## 💾 Softwares
+
+[![Softwares](https://skillicons.dev/icons?perline=8&i=windows,linux,ubuntu,docker,mysql)](https://skillicons.dev)
+
+## 📱Applications
+
+[![Applications](https://skillicons.dev/icons?perline=8&i=androidstudio,idea,vscode,discord,postman,wordpress)](https://skillicons.dev)
