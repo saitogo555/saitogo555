@@ -14,7 +14,7 @@
   - [Zenn](https://zenn.dev/saitogo)
   - [CrowdWorks](https://crowdworks.jp/public/employees/4181515)
 - 📫 **Contact**:
-  - Email: [sg.saitogo@gmail.com](mailto:sg.saitogo@gmail.com)
+  - Email: [sg.saitogo@gmail.com](mailto:contact@saitogo.me)
   - X (formerly Twitter): [@saitogo555](https://x.com/saitogo555)
 - 💬 **One-liner**: "The time will come when all applications will be web-based."
 
