@@ -36,7 +36,7 @@
 
 ## 💻 Programming Languages
 
-[![Programming Languages](https://skillicons.dev/icons?perline=8&i=html,css,js,ts,php,java,py,go)](https://skillicons.dev)
+[![Programming Languages](https://skillicons.dev/icons?perline=8&i=html,css,js,ts,php,java,py,cs,go)](https://skillicons.dev)
 
 ## 📚 Library & Framework
 
