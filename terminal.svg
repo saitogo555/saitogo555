@@ -1,0 +1,478 @@
+<svg
+  fill="none"
+  viewBox="0 0 700 500"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="terminal">
+        <div class="terminal-header">
+          <div class="window-controls">
+            <div class="control close"></div>
+            <div class="control minimize"></div>
+            <div class="control maximize"></div>
+          </div>
+          <div class="terminal-title">My Profile - Terminal</div>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-content">
+            <div class="terminal-line">
+              <div class="terminal-prompt">
+                <span class="terminal-prompt__host">user@localhost</span>
+                <span class="terminal-prompt__colon">:</span>
+                <span class="terminal-prompt__path">~</span>
+                <span class="terminal-prompt__dollar">$</span>
+              </div>
+              <div class="terminal-command whoami">
+                <span class="terminal-command__char" style="--char-index: 0">w</span>
+                <span class="terminal-command__char" style="--char-index: 1">h</span>
+                <span class="terminal-command__char" style="--char-index: 2">o</span>
+                <span class="terminal-command__char" style="--char-index: 3">a</span>
+                <span class="terminal-command__char" style="--char-index: 4">m</span>
+                <span class="terminal-command__char" style="--char-index: 5">i</span>
+              </div>
+              <span class="terminal-cursor">|</span>
+            </div>
+            <div>
+              <pre class="ascii-art">
+███████╗ █████╗ ██╗████████╗ ██████╗      ██████╗  ██████╗ 
+██╔════╝██╔══██╗██║╚══██╔══╝██╔═══██╗    ██╔════╝ ██╔═══██╗
+███████╗███████║██║   ██║   ██║   ██║    ██║  ███╗██║   ██║
+╚════██║██╔══██║██║   ██║   ██║   ██║    ██║   ██║██║   ██║
+███████║██║  ██║██║   ██║   ╚██████╔╝    ╚██████╔╝╚██████╔╝
+╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝      ╚═════╝  ╚═════╝ 
+            </pre>
+            </div>
+            <div class="terminal-line">
+              <div class="terminal-command description">
+                <span class="terminal-command__char" style="--char-index: 0">I</span>
+                <span class="terminal-command__char" style="--char-index: 1">'</span>
+                <span class="terminal-command__char" style="--char-index: 2">m</span>
+                <span class="terminal-command__char" style="--char-index: 3"> </span>
+                <span class="terminal-command__char" style="--char-index: 4">F</span>
+                <span class="terminal-command__char" style="--char-index: 5">u</span>
+                <span class="terminal-command__char" style="--char-index: 6">l</span>
+                <span class="terminal-command__char" style="--char-index: 7">l</span>
+                <span class="terminal-command__char" style="--char-index: 8"> </span>
+                <span class="terminal-command__char" style="--char-index: 9">S</span>
+                <span class="terminal-command__char" style="--char-index: 10">t</span>
+                <span class="terminal-command__char" style="--char-index: 11">a</span>
+                <span class="terminal-command__char" style="--char-index: 12">c</span>
+                <span class="terminal-command__char" style="--char-index: 13">k</span>
+                <span class="terminal-command__char" style="--char-index: 14"> </span>
+                <span class="terminal-command__char" style="--char-index: 15">W</span>
+                <span class="terminal-command__char" style="--char-index: 16">e</span>
+                <span class="terminal-command__char" style="--char-index: 17">b</span>
+                <span class="terminal-command__char" style="--char-index: 18"> </span>
+                <span class="terminal-command__char" style="--char-index: 19">D</span>
+                <span class="terminal-command__char" style="--char-index: 20">e</span>
+                <span class="terminal-command__char" style="--char-index: 21">v</span>
+                <span class="terminal-command__char" style="--char-index: 22">e</span>
+                <span class="terminal-command__char" style="--char-index: 23">l</span>
+                <span class="terminal-command__char" style="--char-index: 24">o</span>
+                <span class="terminal-command__char" style="--char-index: 25">p</span>
+                <span class="terminal-command__char" style="--char-index: 26">e</span>
+                <span class="terminal-command__char" style="--char-index: 27">r</span>
+                <span class="terminal-command__char emoji" style="--char-index: 28">😁</span>
+              </div>
+            </div>
+            <div class="terminal-line">
+              <div class="terminal-command profile">
+                <span class="terminal-command__char icon">
+                  <svg width="24" fill="#d4d4d4"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                    version="1.1" viewBox="0 0 64 64" xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="matrix(1,0,0,1,-303,-78)"><g id="Artboard1" transform="matrix(1,0,0,1,303,78)"><rect height="64" style="fill:none;" width="64" x="0" y="0"/><g transform="matrix(1,0,0,1,-303,-78)"><path d="M335,80.75C318.856,80.75 305.75,93.856 305.75,110C305.75,126.144 318.856,139.25 335,139.25C351.144,139.25 364.25,126.144 364.25,110C364.25,93.856 351.144,80.75 335,80.75ZM335,83.25C349.764,83.25 361.75,95.236 361.75,110C361.75,124.764 349.764,136.75 335,136.75C320.236,136.75 308.25,124.764 308.25,110C308.25,95.236 320.236,83.25 335,83.25Z"/></g><g transform="matrix(0.5,0,0,1,-135.5,-78)"><path d="M335,80.75C328.09,80.75 321.583,82.903 316.403,86.701C309.232,91.959 304.5,100.435 304.5,110C304.5,119.565 309.232,128.041 316.403,133.299C321.583,137.097 328.09,139.25 335,139.25C341.91,139.25 348.417,137.097 353.597,133.299C360.768,128.041 365.5,119.565 365.5,110C365.5,100.435 360.768,91.959 353.597,86.701C348.417,82.903 341.91,80.75 335,80.75ZM335,83.25C340.454,83.25 345.378,85.112 349.466,88.11C356.198,93.046 360.5,101.021 360.5,110C360.5,118.979 356.198,126.954 349.466,131.89C345.378,134.888 340.454,136.75 335,136.75C329.546,136.75 324.622,134.888 320.534,131.89C313.802,126.954 309.5,118.979 309.5,110C309.5,101.021 313.802,93.046 320.534,88.11C324.622,85.112 329.546,83.25 335,83.25Z"/></g><g transform="matrix(1,0,0,-1,-303,142)"><path d="M312.077,93.64C311.622,93.195 311.575,92.478 311.968,91.976C317.324,85.143 325.653,80.75 335,80.75C344.347,80.75 352.676,85.143 358.032,91.976C358.425,92.478 358.378,93.195 357.923,93.64C352.59,98.865 344.307,102.25 335,102.25C325.693,102.25 317.41,98.865 312.077,93.64ZM314.661,92.632C319.592,97.004 326.883,99.75 335,99.75C343.117,99.75 350.408,97.004 355.339,92.632C350.431,86.892 343.137,83.25 335,83.25C326.863,83.25 319.569,86.892 314.661,92.632L314.661,92.632Z"/></g><g transform="matrix(1,0,0,1,-303,-78)"><path d="M311.968,91.976C311.575,92.478 311.622,93.195 312.077,93.64C317.41,98.865 325.693,102.25 335,102.25C344.307,102.25 352.59,98.865 357.923,93.64C358.378,93.195 358.425,92.478 358.032,91.976C352.676,85.143 344.347,80.75 335,80.75C325.653,80.75 317.324,85.143 311.968,91.976ZM314.661,92.632C319.569,86.892 326.863,83.25 335,83.25C343.137,83.25 350.431,86.892 355.339,92.632C350.408,97.004 343.117,99.75 335,99.75C326.883,99.75 319.592,97.004 314.661,92.632L314.661,92.632Z"/></g><g transform="matrix(1,0,0,1,-303,-78)"><path d="M307,111.25L363,111.25C363.69,111.25 364.25,110.69 364.25,110C364.25,109.31 363.69,108.75 363,108.75L307,108.75C306.31,108.75 305.75,109.31 305.75,110C305.75,110.69 306.31,111.25 307,111.25Z"/></g><g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-78,367)"><path d="M307,111.25L363,111.25C363.69,111.25 364.25,110.69 364.25,110C364.25,109.31 363.69,108.75 363,108.75L307,108.75C306.31,108.75 305.75,109.31 305.75,110C305.75,110.69 306.31,111.25 307,111.25Z"/></g></g></g></svg>
+                </span>
+                <span class="terminal-command__char" style="--char-index: 1">P</span>
+                <span class="terminal-command__char" style="--char-index: 2">r</span>
+                <span class="terminal-command__char" style="--char-index: 3">o</span>
+                <span class="terminal-command__char" style="--char-index: 4">f</span>
+                <span class="terminal-command__char" style="--char-index: 5">i</span>
+                <span class="terminal-command__char" style="--char-index: 6">l</span>
+                <span class="terminal-command__char" style="--char-index: 7">e</span>
+                <span class="terminal-command__char" style="--char-index: 5">:</span>
+                <span class="terminal-command__char" style="--char-index: 6"> </span>
+                <div class="profile-url">
+                  <span class="terminal-command__char" style="--char-index: 7">h</span>
+                  <span class="terminal-command__char" style="--char-index: 8">t</span>
+                  <span class="terminal-command__char" style="--char-index: 9">t</span>
+                  <span class="terminal-command__char" style="--char-index: 10">p</span>
+                  <span class="terminal-command__char" style="--char-index: 11">s</span>
+                  <span class="terminal-command__char" style="--char-index: 12">:</span>
+                  <span class="terminal-command__char" style="--char-index: 13">/</span>
+                  <span class="terminal-command__char" style="--char-index: 14">/</span>
+                  <span class="terminal-command__char" style="--char-index: 15">w</span>
+                  <span class="terminal-command__char" style="--char-index: 16">w</span>
+                  <span class="terminal-command__char" style="--char-index: 17">w</span>
+                  <span class="terminal-command__char" style="--char-index: 18">.</span>
+                  <span class="terminal-command__char" style="--char-index: 19">s</span>
+                  <span class="terminal-command__char" style="--char-index: 20">a</span>
+                  <span class="terminal-command__char" style="--char-index: 21">i</span>
+                  <span class="terminal-command__char" style="--char-index: 22">t</span>
+                  <span class="terminal-command__char" style="--char-index: 23">o</span>
+                  <span class="terminal-command__char" style="--char-index: 24">g</span>
+                  <span class="terminal-command__char" style="--char-index: 25">o</span>
+                  <span class="terminal-command__char" style="--char-index: 26">.</span>
+                  <span class="terminal-command__char" style="--char-index: 27">m</span>
+                  <span class="terminal-command__char" style="--char-index: 28">e</span>
+                </div>
+              </div>
+            </div>
+            <div class="terminal-line">
+              <div class="terminal-command github">
+                <span class="terminal-command__char icon">
+                  <svg width="24" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
+                      fill="#d4d4d4" />
+                  </svg>
+                </span>
+                <span class="terminal-command__char" style="--char-index: 1">G</span>
+                <span class="terminal-command__char" style="--char-index: 2">i</span>
+                <span class="terminal-command__char" style="--char-index: 3">t</span>
+                <span class="terminal-command__char" style="--char-index: 4">H</span>
+                <span class="terminal-command__char" style="--char-index: 5">u</span>
+                <span class="terminal-command__char" style="--char-index: 6">b</span>
+                <span class="terminal-command__char" style="--char-index: 7">:</span>
+                <span class="terminal-command__char" style="--char-index: 8"> </span>
+                <div class="github-url">
+                  <span class="terminal-command__char" style="--char-index: 9">s</span>
+                  <span class="terminal-command__char" style="--char-index: 10">a</span>
+                  <span class="terminal-command__char" style="--char-index: 11">i</span>
+                  <span class="terminal-command__char" style="--char-index: 12">t</span>
+                  <span class="terminal-command__char" style="--char-index: 13">o</span>
+                  <span class="terminal-command__char" style="--char-index: 14">g</span>
+                  <span class="terminal-command__char" style="--char-index: 15">o</span>
+                  <span class="terminal-command__char" style="--char-index: 16">5</span>
+                  <span class="terminal-command__char" style="--char-index: 17">5</span>
+                  <span class="terminal-command__char" style="--char-index: 18">5</span>
+                </div>
+              </div>
+            </div>
+            <div class="terminal-line">
+              <div class="terminal-command x">
+                <span class="terminal-command__char icon">
+                  <svg width="24" viewBox="0 0 1200 1227" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+                      fill="white" />
+                  </svg>
+                </span>
+                <span class="terminal-command__char" style="--char-index: 1">X</span>
+                <span class="terminal-command__char" style="--char-index: 2">:</span>
+                <span class="terminal-command__char" style="--char-index: 3"> </span>
+                <div class="x-url">
+                  <span class="terminal-command__char" style="--char-index: 4">@</span>
+                  <span class="terminal-command__char" style="--char-index: 5">s</span>
+                  <span class="terminal-command__char" style="--char-index: 6">a</span>
+                  <span class="terminal-command__char" style="--char-index: 7">i</span>
+                  <span class="terminal-command__char" style="--char-index: 8">t</span>
+                  <span class="terminal-command__char" style="--char-index: 9">o</span>
+                  <span class="terminal-command__char" style="--char-index: 10">g</span>
+                  <span class="terminal-command__char" style="--char-index: 11">o</span>
+                  <span class="terminal-command__char" style="--char-index: 12">5</span>
+                  <span class="terminal-command__char" style="--char-index: 13">5</span>
+                  <span class="terminal-command__char" style="--char-index: 14">5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        * {
+        margin: 0;
+        padding: 0;
+        font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas,
+        "Courier New", monospace;
+        }
+
+        .terminal {
+        width: 700px;
+        height: 500px;
+        background-image: linear-gradient(
+        90deg,
+        #010711 0%,
+        #020d1d 30%,
+        #020d1d 70%,
+        #010711 100%
+        );
+        border-radius: 10px;
+        box-shadow: 0 10px 40px #010a18c9;
+        overflow: hidden;
+        }
+
+        .terminal-header {
+        background-image: linear-gradient(
+        90deg,
+        #0c1a30 0%,
+        #152236 30%,
+        #152236 70%,
+        #0c1a30 100%
+        );
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        border-bottom: 1px solid #30363d;
+        position: relative;
+        }
+
+        .window-controls {
+        display: flex;
+        gap: 8px;
+        }
+
+        .control {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        }
+
+        .control.close {
+        background: #ff5f56;
+        }
+
+        .control.minimize {
+        background: #ffbd2e;
+        }
+
+        .control.maximize {
+        background: #27ca3f;
+        }
+
+        .terminal-title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #8b949e;
+        font-size: 14px;
+        font-weight: 500;
+        }
+
+        .terminal-body {
+        padding: 20px;
+        }
+
+        .terminal-line {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        }
+
+        .terminal-prompt {
+        display: flex;
+        font-size: 24px;
+        }
+
+        .terminal-prompt__host {
+        color: #008236;
+        }
+
+        .terminal-prompt__colon {
+        color: #d4d4d4;
+        }
+
+        .terminal-prompt__path {
+        color: #1447e6;
+        }
+
+        .terminal-prompt__dollar {
+        color: #d4d4d4;
+        margin-right: 10px;
+        }
+
+        .terminal-command {
+        display: flex;
+        align-items: center;
+        color: #d4d4d4;
+        font-size: 24px;
+        }
+
+        .terminal-command__char {
+        display: block;
+        width: 0;
+        overflow: hidden;
+        animation-name: appear;
+        animation-duration: 0s;
+        animation-fill-mode: forwards;
+        }
+
+        .terminal-command.whoami .terminal-command__char {
+        animation-delay: calc(1.25s + var(--char-index, 0) * 0.07s);
+        }
+
+        .terminal-cursor {
+        display: block;
+        color: #d4d4d4;
+        font-size: 24px;
+        opacity: 0;
+        animation-name: blink;
+        animation-duration: 0.75s;
+        animation-fill-mode: infinite;
+        animation-iteration-count: 3;
+        animation-delay: 0s;
+        }
+
+        .ascii-art {
+        color: #d4d4d4;
+        font-size: 16px;
+        transform: translateY(20px);
+        opacity: 0;
+        background-image: linear-gradient(
+        135deg,
+        oklch(0.707 0.165 254.624),
+        oklch(0.627 0.265 303.9),
+        oklch(0.656 0.241 354.308),
+        oklch(0.627 0.265 303.9),
+        oklch(0.707 0.165 254.624)
+        );
+        background-size: 400% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        animation-name: fade-up, gradient;
+        animation-duration: 1s, 30s;
+        animation-fill-mode: forwards, none;
+        animation-timing-function: ease-out, linear;
+        animation-delay: 2.5s, 0s;
+        animation-iteration-count: 1, infinite;
+        }
+
+        .terminal-command.description .terminal-command__char {
+        color: #ecc61b;
+        white-space: pre;
+        animation-delay: calc(4s + var(--char-index, 0) * 0.07s);
+        }
+
+        .terminal-command.profile {
+        margin-top: 20px;
+        }
+
+        .terminal-command.profile .terminal-command__char {
+        color: #d4d4d4;
+        white-space: pre;
+        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        }
+
+        .terminal-command.profile .terminal-command__char.icon {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        }
+
+        .terminal-command.profile .profile-url {
+        display: flex;
+        align-items: center;
+        border-bottom: solid 2px #ccccccb3;
+        }
+
+        .terminal-command.profile .profile-url .terminal-command__char {
+        color: #ccccccb3;
+        }
+
+        .terminal-command.profile .terminal-command__char {
+        color: #d4d4d4;
+        white-space: pre;
+        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        }
+
+        .terminal-command.github {
+        margin-top: 20px;
+        }
+
+        .terminal-command.github .terminal-command__char {
+        color: #d4d4d4;
+        white-space: pre;
+        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        }
+
+        .terminal-command.github .terminal-command__char.icon {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        }
+
+        .terminal-command.github .github-url {
+        display: flex;
+        align-items: center;
+        border-bottom: solid 2px #ccccccb3;
+        }
+
+        .terminal-command.github .github-url .terminal-command__char {
+        color: #ccccccb3;
+        }
+
+        .terminal-command.x {
+        margin-top: 20px;
+        }
+
+        .terminal-command.x .terminal-command__char {
+        color: #d4d4d4;
+        white-space: pre;
+        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        }
+
+        .terminal-command.x .terminal-command__char.icon {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        }
+
+        .terminal-command.x .x-url {
+        display: flex;
+        align-items: center;
+        border-bottom: solid 2px #ccccccb3;
+        }
+
+        .terminal-command.x .x-url .terminal-command__char {
+        color: #ccccccb3;
+        }
+
+        @keyframes appear {
+        0% {
+        width: auto;
+        }
+        100% {
+        width: auto;
+        }
+        }
+
+        @keyframes blink {
+        0%,
+        50% {
+        opacity: 1;
+        }
+        51%,
+        100% {
+        opacity: 0;
+        }
+        }
+
+        @keyframes fade-up {
+        0% {
+        opacity: 0;
+        transform: translateY(20px);
+        }
+        100% {
+        opacity: 1;
+        transform: translateY(0);
+        }
+        }
+
+        @keyframes gradient {
+        0%, 100% {
+        background-position: 0% center;
+        }
+        50% {
+        background-position: 400% center;
+        }
+        }
+      </style>
+    </div>
+  </foreignObject>
+</svg>
