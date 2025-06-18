@@ -1,11 +1,12 @@
 <svg
   fill="none"
-  viewBox="0 0 700 500"
+  viewBox="0 0 2100 1500"
+  width="2100"
+  height="1500"
   xmlns="http://www.w3.org/2000/svg"
 >
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <div class="terminal">
+      <div class="terminal" xmlns="http://www.w3.org/1999/xhtml">
         <div class="terminal-header">
           <div class="window-controls">
             <div class="control close"></div>
@@ -181,18 +182,24 @@
             </div>
           </div>
         </div>
-      </div>
       <style>
         * {
         margin: 0;
         padding: 0;
         font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas,
         "Courier New", monospace;
+        box-sizing: border-box;
+        }
+
+        svg {
+          font-size: 48px;
         }
 
         .terminal {
-        width: 700px;
-        height: 500px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
         background-image: linear-gradient(
         90deg,
         #010711 0%,
@@ -200,8 +207,9 @@
         #020d1d 70%,
         #010711 100%
         );
-        border-radius: 10px;
-        box-shadow: 0 10px 40px #010a18c9;
+        border-radius: 0.625rem;
+        border: 0.0625rem solid #30363d;
+        box-shadow: 0 0.625rem 2.5rem #010a18c9;
         overflow: hidden;
         }
 
@@ -213,22 +221,22 @@
         #152236 70%,
         #0c1a30 100%
         );
-        height: 50px;
+        height: 3.125rem;
         display: flex;
         align-items: center;
-        padding: 0 20px;
-        border-bottom: 1px solid #30363d;
+        padding: 0 1.25rem;
+        border-bottom: 0.0625rem solid #30363d;
         position: relative;
         }
 
         .window-controls {
         display: flex;
-        gap: 8px;
+        gap: 0.5rem;
         }
 
         .control {
-        width: 12px;
-        height: 12px;
+        width: 0.75rem;
+        height: 0.75rem;
         border-radius: 50%;
         }
 
@@ -249,23 +257,24 @@
         left: 50%;
         transform: translateX(-50%);
         color: #8b949e;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 500;
         }
 
         .terminal-body {
-        padding: 20px;
+        flex-grow: 1;
+        padding: 1.25rem;
         }
 
         .terminal-line {
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         }
 
         .terminal-prompt {
         display: flex;
-        font-size: 24px;
+        font-size: 1.5rem;
         }
 
         .terminal-prompt__host {
@@ -282,14 +291,14 @@
 
         .terminal-prompt__dollar {
         color: #d4d4d4;
-        margin-right: 10px;
+        margin-right: 0.625rem;
         }
 
         .terminal-command {
         display: flex;
         align-items: center;
         color: #d4d4d4;
-        font-size: 24px;
+        font-size: 1.5rem;
         }
 
         .terminal-command__char {
@@ -308,7 +317,7 @@
         .terminal-cursor {
         display: block;
         color: #d4d4d4;
-        font-size: 24px;
+        font-size: 1.5rem;
         opacity: 0;
         animation-name: blink;
         animation-duration: 0.75s;
@@ -319,8 +328,8 @@
 
         .ascii-art {
         color: #d4d4d4;
-        font-size: 16px;
-        transform: translateY(20px);
+        font-size: 1rem;
+        transform: translateY(1.25rem);
         opacity: 0;
         background-image: linear-gradient(
         135deg,
@@ -345,12 +354,13 @@
 
         .terminal-command.description .terminal-command__char {
         color: #ecc61b;
+        font-size: 1.2em;
         white-space: pre;
         animation-delay: calc(4s + var(--char-index, 0) * 0.07s);
         }
 
         .terminal-command.profile {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         }
 
         .terminal-command.profile .terminal-command__char {
@@ -362,13 +372,13 @@
         .terminal-command.profile .terminal-command__char.icon {
         display: flex;
         align-items: center;
-        margin-right: 10px;
+        margin-right: 0.625rem;
         }
 
         .terminal-command.profile .profile-url {
         display: flex;
         align-items: center;
-        border-bottom: solid 2px #ccccccb3;
+        border-bottom: solid 0.125rem #ccccccb3;
         }
 
         .terminal-command.profile .profile-url .terminal-command__char {
@@ -378,29 +388,29 @@
         .terminal-command.profile .terminal-command__char {
         color: #d4d4d4;
         white-space: pre;
-        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        animation-delay: calc(6.5s + var(--char-index, 0) * 0.07s);
         }
 
         .terminal-command.github {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         }
 
         .terminal-command.github .terminal-command__char {
         color: #d4d4d4;
         white-space: pre;
-        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        animation-delay: calc(6.5s + var(--char-index, 0) * 0.07s);
         }
 
         .terminal-command.github .terminal-command__char.icon {
         display: flex;
         align-items: center;
-        margin-right: 10px;
+        margin-right: 0.625rem;
         }
 
         .terminal-command.github .github-url {
         display: flex;
         align-items: center;
-        border-bottom: solid 2px #ccccccb3;
+        border-bottom: solid 0.125rem #ccccccb3;
         }
 
         .terminal-command.github .github-url .terminal-command__char {
@@ -408,25 +418,25 @@
         }
 
         .terminal-command.x {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         }
 
         .terminal-command.x .terminal-command__char {
         color: #d4d4d4;
         white-space: pre;
-        animation-delay: calc(6s + var(--char-index, 0) * 0.07s);
+        animation-delay: calc(6.5s + var(--char-index, 0) * 0.07s);
         }
 
         .terminal-command.x .terminal-command__char.icon {
         display: flex;
         align-items: center;
-        margin-right: 10px;
+        margin-right: 0.625rem;
         }
 
         .terminal-command.x .x-url {
         display: flex;
         align-items: center;
-        border-bottom: solid 2px #ccccccb3;
+        border-bottom: solid 0.125rem #ccccccb3;
         }
 
         .terminal-command.x .x-url .terminal-command__char {
@@ -456,7 +466,7 @@
         @keyframes fade-up {
         0% {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(1.25rem);
         }
         100% {
         opacity: 1;
