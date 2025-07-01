@@ -36,12 +36,14 @@
             </div>
             <div>
               <pre class="ascii-art">
-███████╗ █████╗ ██╗████████╗ ██████╗      ██████╗  ██████╗ 
-██╔════╝██╔══██╗██║╚══██╔══╝██╔═══██╗    ██╔════╝ ██╔═══██╗
-███████╗███████║██║   ██║   ██║   ██║    ██║  ███╗██║   ██║
-╚════██║██╔══██║██║   ██║   ██║   ██║    ██║   ██║██║   ██║
-███████║██║  ██║██║   ██║   ╚██████╔╝    ╚██████╔╝╚██████╔╝
-╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝      ╚═════╝  ╚═════╝ 
+                <text font-family="'Courier New', Courier, 'Liberation Mono', 'Consolas', 'Monaco', 'Lucida Console', monospace">
+███████╗░█████╗░██╗████████╗░██████╗░░░░░░██████╗░░██████╗░
+██╔════╝██╔══██╗██║╚══██╔══╝██╔═══██╗░░░░██╔════╝░██╔═══██╗
+███████╗███████║██║░░░██║░░░██║░░░██║░░░░██║░░███╗██║░░░██║
+╚════██║██╔══██║██║░░░██║░░░██║░░░██║░░░░██║░░░██║██║░░░██║
+███████║██║░░██║██║░░░██║░░░╚██████╔╝░░░░╚██████╔╝╚██████╔╝
+╚══════╝╚═╝░░╚═╝╚═╝░░░╚═╝░░░░╚═════╝░░░░░░╚═════╝░░╚═════╝░
+            </text>
             </pre>
             </div>
             <div class="terminal-line">
@@ -188,7 +190,7 @@
         * {
         margin: 0;
         padding: 0;
-        font-family: system-ui;
+        font-family: 'Consolas', monospace;
         box-sizing: border-box;
         }
 
@@ -328,8 +330,8 @@
 
         .ascii-art {
         color: #d4d4d4;
-        font-size: 1rem;
-        font-family: "Cascadia Mono", sans-serif;
+        font-size: 0.7rem;
+        font-family: initial !important;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
